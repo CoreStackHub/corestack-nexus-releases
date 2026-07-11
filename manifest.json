@@ -1,20 +1,46 @@
 {
-  "product": "CoreStack Nexus",
-  "slug": "CoreStack-Nexus",
-  "version": "1.0.0-2026.06.28",
-  "date": "2026-07-10",
-  "php": "^8.2",
-  "artifacts": {
-    "upgrade": {
-      "file": "CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
-      "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
-      "sha256": "915cd9d3004da02a391446d5c9fb2daf0c1d3b9bb08e146c4d69a9536b96350f",
-      "bytes": 53175563,
-      "has_migrations": true
-    }
-  },
-  "notes": [
-    "Use Admin Settings > Update Center to apply this upgrade.",
-    "Do not overwrite .env, storage, public/storage, or uploaded user files manually."
-  ]
+    "product": "CoreStack Nexus",
+    "slug": "CoreStack-Nexus",
+    "version": "1.0.0-2026.06.28",
+    "date": "2026-07-11",
+    "generated_by": "corestack:build",
+    "php": "^8.2",
+    "extensions": [
+        "bcmath",
+        "ctype",
+        "curl",
+        "dom",
+        "fileinfo",
+        "json",
+        "mbstring",
+        "openssl",
+        "pdo",
+        "pdo_mysql",
+        "tokenizer",
+        "xml",
+        "zip"
+    ],
+    "artifacts": {
+        "install": {
+            "file": "CoreStack-Nexus-v1.0.0-2026.06.28.zip",
+            "sha256": "236f583486249bdbfc64bd5158c6484a3ff01efbc59a340c70e11dd53a63177d",
+            "bytes": 103429054,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28.zip"
+        },
+        "upgrade": {
+            "file": "CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
+            "sha256": "8bb78761464320f9a2c9f58e6a729d6dbe9a6cab820e4dea6a19f2958de3d67a",
+            "bytes": 53177019,
+            "has_migrations": true,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip"
+        }
+    },
+    "operator_notes": [
+        "Upload install ZIP contents for new installations.",
+        "Use the upgrade ZIP through Admin Settings > Update Center for existing installations.",
+        "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
+        "Configure real wallet addresses, SMTP, support details, and live chat after install."
+    ],
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
+    "checksum": "sha256:8bb78761464320f9a2c9f58e6a729d6dbe9a6cab820e4dea6a19f2958de3d67a"
 }
