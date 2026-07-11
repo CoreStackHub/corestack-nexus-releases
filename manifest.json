@@ -23,14 +23,14 @@
     "artifacts": {
         "install": {
             "file": "CoreStack-Nexus-v1.0.0-2026.06.28.zip",
-            "sha256": "236f583486249bdbfc64bd5158c6484a3ff01efbc59a340c70e11dd53a63177d",
-            "bytes": 103429054,
+            "sha256": "558fbc6aa57b2ed02582d7b8617d02c42b298f20aeb4fa268ad4f9f4232c3fb0",
+            "bytes": 103429641,
             "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28.zip"
         },
         "upgrade": {
             "file": "CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
-            "sha256": "8bb78761464320f9a2c9f58e6a729d6dbe9a6cab820e4dea6a19f2958de3d67a",
-            "bytes": 53177019,
+            "sha256": "fc0db55eeb36e4e77635577ea4c553179ccad8c9bc5d4973889f3eb74379b912",
+            "bytes": 53177606,
             "has_migrations": true,
             "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip"
         }
@@ -42,5 +42,5 @@
         "Configure real wallet addresses, SMTP, support details, and live chat after install."
     ],
     "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
-    "checksum": "sha256:8bb78761464320f9a2c9f58e6a729d6dbe9a6cab820e4dea6a19f2958de3d67a"
+    "checksum": "sha256:fc0db55eeb36e4e77635577ea4c553179ccad8c9bc5d4973889f3eb74379b912"
 }
