@@ -1,9 +1,16 @@
 {
     "product": "CoreStack Nexus",
     "slug": "CoreStack-Nexus",
-    "version": "1.0.0-2026.06.28",
+    "version": "1.0.1-2026.07.11",
     "date": "2026-07-11",
     "generated_by": "corestack:build",
+    "notes": [
+        "Shared-hosting updater now verifies and applies large packages through resumable browser-safe steps.",
+        "Update progress pages continue automatically while keeping the manual continue button as a fallback.",
+        "Admin-managed logos, favicon, user image, bot image folders, and upload folders are preserved during upgrades.",
+        "Verification progress can recover if shared hosting loses the temporary job file while package metadata still exists.",
+        "Update Center diagnostics and package checks are improved for common cPanel, Plesk, and DirectAdmin environments."
+    ],
     "php": "^8.2",
     "extensions": [
         "bcmath",
@@ -22,17 +29,17 @@
     ],
     "artifacts": {
         "install": {
-            "file": "CoreStack-Nexus-v1.0.0-2026.06.28.zip",
-            "sha256": "7d578566794cb307dd7737cd3b18244ef5d46414fba6c7531c8b6059daf8879e",
-            "bytes": 103436757,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28.zip"
+            "file": "CoreStack-Nexus-v1.0.1-2026.07.11.zip",
+            "sha256": "e585863a70a1420103201bf989f6c2c8926698cee36e295ec74951783dc8b300",
+            "bytes": 103437813,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.1-2026.07.11/CoreStack-Nexus-v1.0.1-2026.07.11.zip"
         },
         "upgrade": {
-            "file": "CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
-            "sha256": "c33c43a0f9d9c6698df5d4f9e1817b827904dee868a758ca2f05e7c76087f6f7",
-            "bytes": 53184659,
+            "file": "CoreStack-Nexus-v1.0.1-2026.07.11-upgrade.zip",
+            "sha256": "5bd3ead9a28982885fdc58de80480c70ca4cddb6f87fc3651b7dacca542afbd1",
+            "bytes": 51522404,
             "has_migrations": true,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip"
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.1-2026.07.11/CoreStack-Nexus-v1.0.1-2026.07.11-upgrade.zip"
         }
     },
     "operator_notes": [
@@ -41,6 +48,6 @@
         "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
         "Configure real wallet addresses, SMTP, support details, and live chat after install."
     ],
-    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.0-2026.06.28/CoreStack-Nexus-v1.0.0-2026.06.28-upgrade.zip",
-    "checksum": "sha256:c33c43a0f9d9c6698df5d4f9e1817b827904dee868a758ca2f05e7c76087f6f7"
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.1-2026.07.11/CoreStack-Nexus-v1.0.1-2026.07.11-upgrade.zip",
+    "checksum": "sha256:5bd3ead9a28982885fdc58de80480c70ca4cddb6f87fc3651b7dacca542afbd1"
 }
