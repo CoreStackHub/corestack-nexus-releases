@@ -37,7 +37,8 @@
             "file": "CoreStack-Nexus-v1.0.2-upgrade.zip",
             "sha256": "d906ec05e054e82ccd4c2bcaf056ab15bf5ba0730b51eb79623b1653749518d0",
             "bytes": 51538301,
-            "has_migrations": true
+            "has_migrations": true,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.2-2026.07.23/CoreStack-Nexus-v1.0.2-upgrade.zip"
         }
     },
     "operator_notes": [
@@ -45,5 +46,7 @@
         "Use the upgrade ZIP through Admin Settings > Update Center for existing installations.",
         "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
         "Configure real wallet addresses, SMTP, support details, and live chat after install."
-    ]
+    ],
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.2-2026.07.23/CoreStack-Nexus-v1.0.2-upgrade.zip",
+    "checksum": "sha256:d906ec05e054e82ccd4c2bcaf056ab15bf5ba0730b51eb79623b1653749518d0"
 }
