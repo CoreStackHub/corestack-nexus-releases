@@ -1,15 +1,15 @@
 {
     "product": "CoreStack Nexus",
     "slug": "CoreStack-Nexus",
-    "version": "1.0.2",
-    "date": "2026-07-23",
+    "version": "1.0.4-2026.09.14",
+    "date": "2026-09-14",
     "generated_by": "corestack:build",
     "notes": [
-        "Shared-hosting updater now verifies and applies large packages through resumable browser-safe steps.",
-        "Update progress pages continue automatically while keeping the manual continue button as a fallback.",
-        "Admin-managed logos, favicon, user image, bot image folders, and upload folders are preserved during upgrades.",
-        "Verification progress can recover if shared hosting loses the temporary job file while package metadata still exists.",
-        "Update Center diagnostics and package checks are improved for common cPanel, Plesk, and DirectAdmin environments."
+        "Bot selection now uses a clear two-step strategy and capital flow.",
+        "Unavailable strategies show investor-friendly status, restriction, cooldown, and eligibility guidance.",
+        "Account-specific bot access rules support limits, expiry, activation, and removal from the admin user view.",
+        "Bot risk, trading access, cooldown, live-bot capacity, and capital-source terms are presented more clearly.",
+        "Modal, notification, wrapping, and responsive presentation have been refined across the bot workflow."
     ],
     "php": "^8.2",
     "extensions": [
@@ -29,16 +29,16 @@
     ],
     "artifacts": {
         "install": {
-            "file": "CoreStack-Nexus-v1.0.2.zip",
-            "sha256": "475fcf26f80beaf063a339533cc9295ddb47740313f92c0ada5b2d0dc30a53ab",
-            "bytes": 103907566
+            "file": "CoreStack-Nexus-v1.0.4-2026.09.14.zip",
+            "sha256": "2092d9fd593fcf1f69aaf9db7daf7b3be0c357b23753df21f9e816aa77b0ffbf",
+            "bytes": 105710051
         },
         "upgrade": {
-            "file": "CoreStack-Nexus-v1.0.2-upgrade.zip",
-            "sha256": "d906ec05e054e82ccd4c2bcaf056ab15bf5ba0730b51eb79623b1653749518d0",
-            "bytes": 51538301,
+            "file": "CoreStack-Nexus-v1.0.4-2026.09.14-upgrade.zip",
+            "sha256": "448175ba9bced7ad4a929adf39bdc6dd7eb47191b3075a66d24ca3f949d4034f",
+            "bytes": 53335546,
             "has_migrations": true,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.2-2026.07.23/CoreStack-Nexus-v1.0.2-upgrade.zip"
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.4-2026.09.14/CoreStack-Nexus-v1.0.4-upgrade.zip"
         }
     },
     "operator_notes": [
@@ -47,6 +47,6 @@
         "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
         "Configure real wallet addresses, SMTP, support details, and live chat after install."
     ],
-    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.2-2026.07.23/CoreStack-Nexus-v1.0.2-upgrade.zip",
-    "checksum": "sha256:d906ec05e054e82ccd4c2bcaf056ab15bf5ba0730b51eb79623b1653749518d0"
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.4-2026.09.14/CoreStack-Nexus-v1.0.4-upgrade.zip",
+    "checksum": "sha256:2092d9fd593fcf1f69aaf9db7daf7b3be0c357b23753df21f9e816aa77b0ffbf"
 }
