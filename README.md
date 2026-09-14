@@ -1,66 +1,83 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CoreStack Nexus
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+CoreStack Nexus is a commercially licensed investment operations platform for managing investor accounts, funding activity, structured investment products, automated trading strategies, verification workflows, communications, and administrative operations from one system.
 
-## About Laravel
+> CoreStack Nexus is proprietary software. Possession of the files does not grant permission to use, copy, resell, redistribute, sublicense, or publish the software. A valid commercial license is required.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Platform Highlights
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Investor dashboards, profiles, account activity, and portfolio views
+- Manual and provider-assisted deposit workflows
+- Withdrawal requests, configurable policies, and portfolio tiers
+- AI bot strategy plans with risk labels, trading access limits, cooldowns, and account-specific controls
+- Structured investment products with configurable performance behavior
+- KYC submission and administrative review
+- Database-backed mail templates, notifications, delivery logs, and newsletter preferences
+- Public CMS pages, multilingual public and investor experiences, and due-diligence resources
+- Support inbox, live-chat controls, and configurable contact channels
+- Browser-based installer and resumable shared-hosting updater
+- Installable progressive web app support for compatible mobile and desktop browsers
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Hosting Requirements
 
-## Learning Laravel
+| Requirement | Minimum | Recommended |
+| --- | --- | --- |
+| PHP | 8.2 | PHP 8.3 with OPcache |
+| Database | MySQL 8.0 or MariaDB 10.6 | Current stable MySQL or MariaDB |
+| Web server | Apache, LiteSpeed, or Nginx | Managed hosting with HTTPS |
+| PHP memory | 256 MB | 512 MB or more |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Required PHP extensions: `bcmath`, `ctype`, `curl`, `dom`, `fileinfo`, `json`, `mbstring`, `openssl`, `pdo`, `pdo_mysql`, `tokenizer`, `xml`, and `zip`.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Supported environments include cPanel, Plesk, DirectAdmin, CyberPanel, managed VPS panels, and conventional Apache/Nginx hosting that meets the requirements above.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Installation
 
-## Laravel Sponsors
+Use the packaged release, not the source repository checkout.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+1. Download the current `CoreStack-Nexus-...zip` install package from the release supplied with your purchase.
+2. Extract the package and open `Documentation/index.html` for the complete customer installation guide.
+3. Upload the contents of `CoreStack-Nexus-Files` to the hosting location assigned to your domain.
+4. Point the domain document root to `public` when your hosting panel supports it. The documentation includes a `public_html` fallback for shared hosting.
+5. Visit `https://your-domain.com/install` and complete the browser-based installer.
+6. Configure real payment addresses, SMTP, cron, support channels, branding, and live-chat settings after signing in as the administrator.
 
-### Premium Partners
+Do not browse to `/public/install`. If `/install` returns 404, verify the extraction folder, hidden `.htaccess` file, and domain document root.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Updating
 
-## Contributing
+Existing installations should use the matching `-upgrade.zip` through:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+`Admin Settings > Update Center`
 
-## Code of Conduct
+Back up the database and application files before every update. Do not manually overwrite `.env`, `storage`, `public/storage`, or administrator-uploaded assets.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Documentation
 
-## Security Vulnerabilities
+The customer package includes an offline HTML guide at `Documentation/index.html`. It covers:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- shared-hosting and control-panel deployment
+- folder permissions
+- database and mail configuration
+- cron and queue setup
+- installation troubleshooting
+- post-install security checks
+- upgrades and backups
 
-## License
+## Security
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Serve the application over HTTPS.
+- Keep `.env`, storage data, database exports, and license credentials private.
+- Replace all demo configuration before production use.
+- Use strong administrator credentials and enable available account security controls.
+- Apply supported releases through the Update Center.
+
+Security concerns should be reported privately through the support channel attached to your commercial purchase. Do not publish sensitive findings in a public issue.
+
+## Commercial License
+
+CoreStack Nexus is distributed under the [CoreStack Nexus Proprietary Commercial License](LICENSE). It is not open-source or freeware. A purchase or issued license key grants only the rights stated in the applicable order, license agreement, and the included license notice.
+
+Laravel and other third-party dependencies remain subject to their respective licenses.
+
+Copyright (c) 2026 CoreStack. All rights reserved.
