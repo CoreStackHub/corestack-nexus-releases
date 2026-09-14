@@ -38,7 +38,7 @@
             "sha256": "448175ba9bced7ad4a929adf39bdc6dd7eb47191b3075a66d24ca3f949d4034f",
             "bytes": 53335546,
             "has_migrations": true,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.4-2026.09.14/CoreStack-Nexus-v1.0.4-upgrade.zip"
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.4-2026.09.14/CoreStack-Nexus-v1.0.4-2026.09.14-upgrade.zip"
         }
     },
     "operator_notes": [
@@ -47,6 +47,6 @@
         "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
         "Configure real wallet addresses, SMTP, support details, and live chat after install."
     ],
-    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.4-2026.09.14/CoreStack-Nexus-v1.0.4-upgrade.zip",
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.4-2026.09.14/CoreStack-Nexus-v1.0.4-2026.09.14-upgrade.zip",
     "checksum": "sha256:2092d9fd593fcf1f69aaf9db7daf7b3be0c357b23753df21f9e816aa77b0ffbf"
 }
