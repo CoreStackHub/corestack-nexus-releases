@@ -1,22 +1,29 @@
 {
-  "product": "CoreStack Nexus",
-  "version": "1.0.12-2026.10.01",
-  "date": "2026-10-01",
-  "notes": [
-    "Trusted devices now offer a compact PIN and passkey unlock screen with password sign-in as a fallback.",
-    "Passkey challenge, sign-in, registration, and removal requests have separate rate limits and clearer errors.",
-    "Valid administrator device sessions resume after browser restarts and retain the seven-day sliding inactivity limit."
-  ],
-  "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.12-2026.10.01/CoreStack-Nexus-v1.0.12-2026.10.01-upgrade.zip",
-  "checksum": "sha256:bb85b181a53cc398d30d981c050d6cf2322a83ab120fc022b03917876503406d",
-  "has_migrations": true,
-  "artifacts": {
-    "upgrade": {
-      "file": "CoreStack-Nexus-v1.0.12-2026.10.01-upgrade.zip",
-      "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.12-2026.10.01/CoreStack-Nexus-v1.0.12-2026.10.01-upgrade.zip",
-      "sha256": "bb85b181a53cc398d30d981c050d6cf2322a83ab120fc022b03917876503406d",
-      "bytes": 63941041,
-      "has_migrations": true
+    "product": "CoreStack Nexus",
+    "version": "1.0.13-2026.10.01",
+    "date": "2026-10-01",
+    "notes": [
+        "Dashboard portfolio value and allocation now use consistent open-position values; the allocation ring excludes available cash.",
+        "Matured investment release follows the eligible withdrawal window and presents its action cleanly.",
+        "PIN and passkey setup simplify trusted-device sign-in, device naming, and removal confirmation.",
+        "Returning sign-in offers a simpler PIN and passkey experience."
+    ],
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.13-2026.10.01/CoreStack-Nexus-v1.0.13-2026.10.01-upgrade.zip",
+    "checksum": "sha256:dd46718589a8f59e0eadd4ad465147cac087462e1a82aa0360378d983bf5d960",
+    "has_migrations": true,
+    "artifacts": {
+        "install": {
+            "file": "CoreStack-Nexus-v1.0.13-2026.10.01.zip",
+            "sha256": "2abb1d1df1476b5eda6c6e003826b4cd86da5b3653722ec463a02519a5e1f2c9",
+            "bytes": 117508811,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.13-2026.10.01/CoreStack-Nexus-v1.0.13-2026.10.01.zip"
+        },
+        "upgrade": {
+            "file": "CoreStack-Nexus-v1.0.13-2026.10.01-upgrade.zip",
+            "sha256": "dd46718589a8f59e0eadd4ad465147cac087462e1a82aa0360378d983bf5d960",
+            "bytes": 63942102,
+            "has_migrations": true,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.13-2026.10.01/CoreStack-Nexus-v1.0.13-2026.10.01-upgrade.zip"
+        }
     }
-  }
 }
