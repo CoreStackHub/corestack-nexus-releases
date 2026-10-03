@@ -1,29 +1,51 @@
 {
     "product": "CoreStack Nexus",
-    "version": "1.0.13-2026.10.01",
-    "date": "2026-10-01",
+    "slug": "CoreStack-Nexus",
+    "version": "1.0.14-2026.10.02",
+    "date": "2026-10-02",
+    "generated_by": "corestack:build",
     "notes": [
-        "Dashboard portfolio value and allocation now use consistent open-position values; the allocation ring excludes available cash.",
-        "Matured investment release follows the eligible withdrawal window and presents its action cleanly.",
-        "PIN and passkey setup simplify trusted-device sign-in, device naming, and removal confirmation.",
-        "Returning sign-in offers a simpler PIN and passkey experience."
+        "Authenticated simulated activity now uses a slim, configurable rail; public pages retain their existing activity cards.",
+        "Fictional activity follows the saved account country or the available visitor region, with local-currency display when rates are available.",
+        "Expanded country-aware fictional name pools and recent-use rotation reduce repeated names."
     ],
-    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.13-2026.10.01/CoreStack-Nexus-v1.0.13-2026.10.01-upgrade.zip",
-    "checksum": "sha256:dd46718589a8f59e0eadd4ad465147cac087462e1a82aa0360378d983bf5d960",
-    "has_migrations": true,
+    "php": "^8.2",
+    "extensions": [
+        "bcmath",
+        "ctype",
+        "curl",
+        "dom",
+        "fileinfo",
+        "json",
+        "mbstring",
+        "openssl",
+        "pdo",
+        "pdo_mysql",
+        "tokenizer",
+        "xml",
+        "zip"
+    ],
     "artifacts": {
         "install": {
-            "file": "CoreStack-Nexus-v1.0.13-2026.10.01.zip",
-            "sha256": "2abb1d1df1476b5eda6c6e003826b4cd86da5b3653722ec463a02519a5e1f2c9",
-            "bytes": 117508811,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.13-2026.10.01/CoreStack-Nexus-v1.0.13-2026.10.01.zip"
+            "file": "CoreStack-Nexus-v1.0.14-2026.10.02.zip",
+            "sha256": "1ead83cb87998747ec2446c7661d120bf98f6253ba78f8a0c9b8f550c2f7ac59",
+            "bytes": 117602302,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.14-2026.10.02/CoreStack-Nexus-v1.0.14-2026.10.02.zip"
         },
         "upgrade": {
-            "file": "CoreStack-Nexus-v1.0.13-2026.10.01-upgrade.zip",
-            "sha256": "dd46718589a8f59e0eadd4ad465147cac087462e1a82aa0360378d983bf5d960",
-            "bytes": 63942102,
+            "file": "CoreStack-Nexus-v1.0.14-2026.10.02-upgrade.zip",
+            "sha256": "95ef79e384e4d7b9f03acfcff5b1d495b515eac3b21605b29ab639738a72820b",
+            "bytes": 64034473,
             "has_migrations": true,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.13-2026.10.01/CoreStack-Nexus-v1.0.13-2026.10.01-upgrade.zip"
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.14-2026.10.02/CoreStack-Nexus-v1.0.14-2026.10.02-upgrade.zip"
         }
-    }
+    },
+    "operator_notes": [
+        "Upload install ZIP contents for new installations.",
+        "Use the upgrade ZIP through Admin Settings > Update Center for existing installations.",
+        "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
+        "Configure real wallet addresses, SMTP, support details, and live chat after install."
+    ],
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.14-2026.10.02/CoreStack-Nexus-v1.0.14-2026.10.02-upgrade.zip",
+    "checksum": "sha256:95ef79e384e4d7b9f03acfcff5b1d495b515eac3b21605b29ab639738a72820b"
 }
