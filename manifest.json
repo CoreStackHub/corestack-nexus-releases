@@ -1,13 +1,12 @@
 {
     "product": "CoreStack Nexus",
     "slug": "CoreStack-Nexus",
-    "version": "1.0.16-2026.10.03",
+    "version": "1.0.17-2026.10.03",
     "date": "2026-10-03",
     "generated_by": "corestack:build",
     "notes": [
-        "Admin-managed ordering and homepage controls now govern bot and investment product presentation.",
-        "KYC can be made optional globally; verification captures full identity details and protects verified profiles while allowing audited admin corrections.",
-        "The Chat App is available from admin navigation, and simulated activity stays behind open support chat across public and account pages."
+        "Onboarding brings the selected bot or investment into view when advancing and keeps the checkout action accessible while scrolling.",
+        "Bot and investment checkout actions use clearer path-specific labels; refresh preserves the browser-restored position."
     ],
     "php": "^8.2",
     "extensions": [
@@ -27,17 +26,17 @@
     ],
     "artifacts": {
         "install": {
-            "file": "CoreStack-Nexus-v1.0.16-2026.10.03.zip",
-            "sha256": "8197a43cd92baecd3a071eac0d4f5eb6698cad7f7eaaf4ae29efb45763ef2b2d",
-            "bytes": 117611464,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.16-2026.10.03/CoreStack-Nexus-v1.0.16-2026.10.03.zip"
+            "file": "CoreStack-Nexus-v1.0.17-2026.10.03.zip",
+            "sha256": "9e0e589bb9ff9766de885dcc81b04e4474f69a29875d14a60f6a66fe67eb4a04",
+            "bytes": 117617261,
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.17-2026.10.03/CoreStack-Nexus-v1.0.17-2026.10.03.zip"
         },
         "upgrade": {
-            "file": "CoreStack-Nexus-v1.0.16-2026.10.03-upgrade.zip",
-            "sha256": "a8598b61fa61130cb42d74335e844e661d331ca2b4044bb9bd98bf15d188e97f",
-            "bytes": 64043507,
+            "file": "CoreStack-Nexus-v1.0.17-2026.10.03-upgrade.zip",
+            "sha256": "0948d4725a68fc762fa647e6ed15a06e5a173ecd1024410d6180274f074a10fe",
+            "bytes": 64049272,
             "has_migrations": true,
-            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.16-2026.10.03/CoreStack-Nexus-v1.0.16-2026.10.03-upgrade.zip"
+            "url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.17-2026.10.03/CoreStack-Nexus-v1.0.17-2026.10.03-upgrade.zip"
         }
     },
     "operator_notes": [
@@ -46,6 +45,6 @@
         "Never overwrite .env, storage, public/storage, or uploaded user files manually.",
         "Configure real wallet addresses, SMTP, support details, and live chat after install."
     ],
-    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.16-2026.10.03/CoreStack-Nexus-v1.0.16-2026.10.03-upgrade.zip",
-    "checksum": "sha256:a8598b61fa61130cb42d74335e844e661d331ca2b4044bb9bd98bf15d188e97f"
+    "package_url": "https://github.com/CoreStackHub/corestack-nexus-releases/releases/download/v1.0.17-2026.10.03/CoreStack-Nexus-v1.0.17-2026.10.03-upgrade.zip",
+    "checksum": "sha256:0948d4725a68fc762fa647e6ed15a06e5a173ecd1024410d6180274f074a10fe"
 }
